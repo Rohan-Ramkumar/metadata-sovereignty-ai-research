@@ -40,3 +40,4 @@ Zenodo author page: https://zenodo.org/communities/sarah_a_mcloughlin  *(replace
 - Sarah A. McLoughlin — *EduLinked Easy Read Web Accessibility Framework (ELAW v1.0)*  
   ```markdown
   [EduLinked Easy Read Web Accessibility Framework (ELAW v1.0)](https://zenodo.org/records/18917087) — Sarah A. McLoughlin (2026)
+[Paired Inclusive Research Dissemination (PIRD): Visual Framework](https://zenodo.org/records/17946324) — Sarah A. McLoughlin (2026)
