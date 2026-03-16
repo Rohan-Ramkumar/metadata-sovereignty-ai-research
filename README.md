@@ -60,3 +60,10 @@ All contributions should clearly record:
 
 This repository models the **metadata sovereignty principles** being researched.
 When documenting records or case examples, use METADATA_TEMPLATE.md to capture authorship and governance information.
+Students should begin by reading:
+
+1. STUDENT_RESEARCH_GUIDE.md
+2. RESEARCH_QUESTIONS.md
+3. METADATA_TEMPLATE.md
+
+These documents explain how research should be structured and documented.
