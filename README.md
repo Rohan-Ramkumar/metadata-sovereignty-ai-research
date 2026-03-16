@@ -37,6 +37,34 @@ Key themes include:
 This project investigates **how AI can support these goals while maintaining strong ethical safeguards**.
 
 ---
+# System Architecture Overview
+
+The project explores a **metadata-first architecture** where records are governed by authorship, consent, and provenance before any AI tools are applied.
+
+```mermaid
+flowchart TD
+
+A[User Creates Record] --> B[Metadata Capture]
+
+B --> C[Record Repository]
+
+C --> D[Version History]
+C --> E[Consent Management]
+C --> F[Authorship Tracking]
+
+C --> G[AI Processing Layer]
+
+G --> H[Plain Language Summary]
+G --> I[Easy Read Conversion]
+G --> J[Caption Generation]
+
+H --> K[Human Review]
+I --> K
+J --> K
+
+K --> L[Accessible Output]
+
+L --> M[Community Use]
 
 # System Overview
 
