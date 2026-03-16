@@ -1,0 +1,48 @@
+# Project Checkpoints — Supervisor Sign-off (3-Week Sprint)
+
+This file sets the short, mandatory supervisor checkpoints for a 3-week student consulting project.
+
+## Checkpoint 1 — End Week 1 (Day 5)
+**Deliverables**
+- Background briefs: AI trends and accessibility landscape.
+- Minimum metadata checklist.
+
+**Supervisor checks**
+- Are sources credible and cited?  
+- Does the metadata checklist include required fields (author, role, consent, version, change history, accessibility flags)?  
+- Feedback logged as Issues.
+
+**Sign-off**  
+Supervisor: ____________________  Date: ______
+
+---
+
+## Checkpoint 2 — Mid Week 2 (Day 9)
+**Deliverables**
+- Metadata schema draft mapped to a recognised standard.
+- Two record lifecycle workflows.
+- Draft AI feature evaluations (at least 2 complete).
+
+**Supervisor checks**
+- Is the schema practically usable by non-technical staff?  
+- Do the workflows show clear metadata capture points and human review steps?  
+- Are AI feature evaluations specific about metadata and transparency requirements?
+
+**Sign-off**  
+Supervisor: ____________________  Date: ______
+
+---
+
+## Checkpoint 3 — End Week 3 (Day 15) — Final Sign-off
+**Deliverables**
+- Final report (8–12 pages + appendices)
+- Ethics checklist & evaluation metrics
+- Implementation roadmap
+
+**Supervisor checks**
+- Final report meets Project Expectations (`PROJECT_EXPECTATIONS_PUBLIC.md`)  
+- All public deliverables reference ethical boundaries and sanitisation requirements for public examples.  
+- Supervisor completes `PUBLICATION_CHECKLIST.md` for any files to be published.
+
+**Final sign-off**  
+Supervisor: ____________________  Date: ______
