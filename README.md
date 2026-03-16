@@ -1,5 +1,5 @@
 # Metadata Sovereignty AI Research Repository
-
+For a map of the repository structure see NAVIGATION.md.
 Research repository supporting the **Metadata Sovereignty Alliance (EduLinked Pty Ltd)** project exploring ethical AI, authorship tracking, and accessibility-first metadata systems.
 
 This repository is used by a student consulting team to investigate how artificial intelligence can responsibly support systems that preserve **authorship, consent, and accessible communication**.
