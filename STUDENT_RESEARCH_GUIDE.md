@@ -190,3 +190,32 @@ The final recommendations should prioritise:
 • transparency  
 • sustainability  
 • interoperability with other systems.
+## Project Task Management
+
+The student consulting team should create a GitHub Project board to manage research tasks.
+
+Steps:
+
+1. Open the repository.
+2. Click the **Projects** tab.
+3. Create a new project board.
+4. Add the following columns:
+
+- To Research
+- In Progress
+- Needs Review
+- Completed
+
+Create task cards for each research area in the project.
+
+Example tasks:
+
+• AI Trends Research  
+• Metadata Standards Review  
+• Accessibility AI Tools  
+• Case Studies  
+• Offline vs Low Connectivity Systems  
+• Ethics Framework  
+• Strategy Recommendations
+
+Each task should be linked to a GitHub Issue so research progress and sources can be documented.
