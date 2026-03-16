@@ -67,3 +67,4 @@ Students should begin by reading:
 3. METADATA_TEMPLATE.md
 
 These documents explain how research should be structured and documented.
+Supervision guidance and project checkpoints are documented in SUPERVISOR_NOTES.md.
