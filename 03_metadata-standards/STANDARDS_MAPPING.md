@@ -114,3 +114,27 @@ Use JSON-LD for web-friendly serialisation and RAG ingestion. This minimal examp
     }
   }
 }
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix msa: <https://example.org/msa#> .
+
+<https://example.org/record/CASE-2026-0001> a prov:Entity ;
+  msa:version "v1.1" ;
+  prov:wasGeneratedBy <https://example.org/activity/create-CASE-2026-0001> ,
+                    <https://example.org/activity/update-CASE-2026-0001> ;
+  prov:wasAttributedTo <https://example.org/agent/alex-river> .
+
+<https://example.org/activity/create-CASE-2026-0001> a prov:Activity ;
+  prov:startedAtTime "2026-03-01T10:00:00Z" ;
+  prov:endedAtTime "2026-03-01T10:05:00Z" ;
+  prov:wasAssociatedWith <https://example.org/agent/alex-river> ;
+  prov:used <https://example.org/record/template-ssa-casefile> .
+
+<https://example.org/activity/update-CASE-2026-0001> a prov:Activity ;
+  prov:startedAtTime "2026-03-10T09:00:00Z" ;
+  prov:endedAtTime "2026-03-10T09:10:00Z" ;
+  prov:wasAssociatedWith <https://example.org/agent/jane-smith> ;
+  prov:used <https://example.org/record/CASE-2026-0001> ;
+  prov:qualifiedActivity <https://example.org/activity/change-note-0001> .
+
+<https://example.org/agent/alex-river> a prov:Agent ;
+  msa:name "Alex River" .
