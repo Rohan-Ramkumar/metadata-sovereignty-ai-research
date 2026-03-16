@@ -1,0 +1,49 @@
+## 4. JSON-LD example (sanitised record + provenance)
+
+Use JSON-LD for web-friendly serialisation and RAG ingestion. This minimal example demonstrates the canonical fields and a provenance activity.
+
+```json
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "premis": "http://www.loc.gov/premis/rdf/v1#",
+    "msa": "https://example.org/msa#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://example.org/record/CASE-2026-0001",
+  "@type": "prov:Entity",
+  "dcterms:identifier": "CASE-2026-0001",
+  "dc:title": "Advocacy Case — Housing Support (Fictional)",
+  "dc:creator": {
+    "@type": "prov:Agent",
+    "msa:name": "Alex River",
+    "msa:role": "Community Advocate"
+  },
+  "dcterms:created": {
+    "@value": "2026-03-01T00:00:00Z",
+    "@type": "xsd:dateTime"
+  },
+  "msa:consentStatus": "fictional_test",
+  "msa:version": "v1.0",
+  "msa:accessibilityFlags": ["Easy-Read","Plain-Language"],
+  "msa:changeHistory": [
+    {
+      "msa:version": "v1.0",
+      "msa:date": "2026-03-01",
+      "msa:by": "Alex River",
+      "msa:note": "Created fictional example"
+    }
+  ],
+  "prov:wasGeneratedBy": {
+    "@id": "https://example.org/activity/create-CASE-2026-0001",
+    "@type": "prov:Activity",
+    "prov:startedAtTime": "2026-03-01T10:00:00Z",
+    "prov:endedAtTime": "2026-03-01T10:05:00Z",
+    "prov:wasAssociatedWith": {
+      "@type": "prov:Agent",
+      "msa:name": "Alex River"
+    }
+  }
+}
